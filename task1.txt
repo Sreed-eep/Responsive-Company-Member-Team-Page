@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeriTech</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color:#008000 ;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero-section {
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #20B2AA;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .feature-card {
+            background-color:#ADFF2F;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .feature-content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>𝓥𝓮𝓻𝓲𝓣𝓮𝓬𝓱</h1>
+    </header>
+
+    <div class="hero-section">
+        <h1>𝐰𝐞𝐥𝐜𝐨𝐦𝐞 </h1>
+        <p>𝓜𝓮𝓮𝓽 𝓞𝓾𝓻 𝓣𝓮𝓪𝓶 </p>
+    </div>
+
+    <div class="main-content">
+        <div class="feature-card">
+            
+            <div class="feature-content">
+                <h2>𝙻𝚎𝚊𝚍𝚎𝚛𝚜𝚑𝚒𝚙/𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚃𝚎𝚊𝚖</h2>
+                <p>"Vision is the compass that guides us through the complexities of the present, illuminating the path to a brighter and more purposeful future."</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            
+            <div class="feature-content">
+                <h2>𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝 𝚃𝚎𝚊𝚖</h2>
+                <p>Join our community and learn from experts in the field of web development.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            
+            <div class="feature-content">
+                <h2>𝚂𝚊𝚕𝚎𝚜 𝚊𝚗𝚍 𝙼𝚊𝚛𝚔𝚎𝚝𝚒𝚗𝚐 𝚃𝚎𝚊𝚖</h2>
+                <p>Join our community and learn from experts in the field of web development.</p>
+            </div>
+        </div>
+
+
+        <!-- Add more feature cards as needed -->
+
+    </div>
+
+</body>
+</html>
